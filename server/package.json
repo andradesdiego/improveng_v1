@@ -1,0 +1,32 @@
+{
+  "name": "usefulapirest",
+  "version": "1.0.0",
+  "description": "useful api rest",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index-es7.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Diego Andrades",
+  "license": "MIT",
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2016": "^6.24.1",
+    "babel-preset-es2017": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.2",
+    "crypto": "^1.0.1",
+    "express": "^4.16.3",
+    "jwt-simple": "^0.5.1",
+    "moment": "^2.22.1",
+    "mongoose": "^5.0.17",
+    "mongoose-random": "^0.1.1",
+    "mongoose-simple-random": "^0.4.1"
+  },
+  "devDependencies": {
+    "jasmine": "^3.1.0",
+    "nodemon": "^1.17.3"
+  }
+}

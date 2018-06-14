@@ -1,0 +1,238 @@
+/* html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+} */
+.App {
+  /* height: -webkit-fill-available; */
+  height: 100%;
+  text-align: center;
+  background: #0f2027; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.App-header {
+  margin: 0 auto;
+  margin-bottom: 10px;
+  height: 80px;
+  padding: 20px;
+  color: white;
+  /*background-image: linear-gradient(135deg, #3b2667 10%, #bc78ec 100%);*/
+  background: #0f2027; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+.mainContainer {
+  margin: 23px 50px;
+}
+#logo {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 9px;
+  padding-left: 20px;
+}
+#rightMenu {
+  margin-right: 40px;
+}
+#intro {
+  background-image: url("http://localhost:3000/images/intro4.jpg") !important;
+  background-size: cover !important;
+}
+.homeTitle {
+  font-family: "Montserrat", sans-serif;
+  font-size: 38px;
+  color: white;
+  font-weight: 600;
+  text-align: left;
+  margin-bottom: 5px;
+}
+.intro-content {
+  color: white;
+  margin: 12px 0px 38px;
+  text-align: left;
+}
+.intro-wrapper {
+  margin: 111px 70px !important;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  color: white;
+  font-weight: 400;
+  font-style: italic;
+  margin: 5px 0px;
+  text-align: left;
+}
+#homeButtons {
+  text-align: left;
+  margin: 0px 20px;
+}
+.homeButton {
+  margin: 10px;
+  text-align: left;
+}
+.signedInButtons {
+  margin: 50px;
+}
+.tituloSignedIn {
+  font-family: "Montserrat", sans-serif;
+  font-size: 28px;
+  color: white;
+  font-weight: 400;
+  font-style: italic;
+  margin: 50px;
+  padding: 30px;
+}
+a {
+  color: white;
+}
+a:hover {
+  color: teal;
+}
+#footer {
+  clear: both;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin: 20px 0px;
+}
+.socialWrapper {
+  /* margin: 5px; */
+  padding: 5px;
+}
+
+div.results.transition.visible {
+  display: none !important;
+}
+.ui.vertical.tabular.menu .active.item {
+  /*background-image: linear-gradient(135deg, #3b2667 10%, #bc78ec 100%);*/
+  background: #0f2027; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.listPages {
+  margin: 20px !important;
+}
+
+#gamerNewGame {
+  display: flex;
+  margin: 20px 5px 0px;
+}
+#gamerProfile {
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 85px;
+}
+h1.titulo {
+  text-align: center;
+  font-size: 22px;
+  color: white;
+}
+
+#adminContainer {
+  margin: 20px 50px 10px;
+}
+.searchQuiz {
+  text-align: center;
+}
+#adminMenu {
+  margin: 150px 20px 230px;
+}
+#aboutMe {
+  margin: 50px 75px 20px;
+}
+.aboutMeDetails {
+  text-align: left;
+}
+.aboutMeDetails > h2 {
+  font-size: 16px;
+}
+.aboutMeDetails > h3 {
+  color: white;
+  margin: 12px 0px 38px;
+  font-size: 14px;
+}
+.ui.pointing.secondary.menu > a {
+  color: white;
+}
+.ui.secondary.pointing.menu a.item:hover {
+  color: #1cb5ac;
+}
+.ui.secondary.pointing.menu .active.item {
+  color: white;
+  border-color: white;
+}
+.ui.secondary.pointing.menu .active.item:hover {
+  color: #1cb5ac;
+  border-color: #1cb5ac;
+}
+#techIntro {
+  margin: 171px 100px;
+}
+blockquote {
+  font-size: 32px;
+  line-height: 2.5rem;
+}
+cite {
+  font-size: 24px;
+}
+#techStructure {
+  text-align: left;
+  margin: 64px 100px;
+}
+#techServer {
+  text-align: left;
+  margin: 84px 100px;
+}
+#techClient {
+  text-align: left;
+  margin: 84px 100px;
+}
+#techBestPractices {
+  text-align: left;
+  margin: 64px 100px;
+}
+.techP {
+  font-size: 1.2rem;
+}

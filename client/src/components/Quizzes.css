@@ -1,0 +1,108 @@
+/* https://uigradients.com/#MoonlitAsteroid */
+
+#quizContainer {
+  margin: 25px 90px 10px 10px;
+}
+
+#gameResults {
+  margin: 50px 50px;
+}
+
+#quiz {
+  width: 70%;
+  margin: 0 auto;
+
+}
+
+.answers {
+  width: 70%;
+  padding: 25px;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 4px;
+  /* background-image: linear-gradient( 135deg, #3B2667 10%, #BC78EC 100%);  */
+  background: #0f2027; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.answersResults {
+  width: 90%;
+  padding: 5px;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 4px;
+  background-color: white;
+  
+
+}
+h1 {
+  font-size: 18px;
+  color: white;
+}
+h1.titulo {
+  font-size: 22px;
+  color: white;
+  padding-bottom: 5px;
+}
+
+.answerWrapper {
+  display: block;
+  font-size: 18px;
+  color: white;
+  padding: 20px;
+}
+
+#check {
+  margin: 20px;
+  padding: 10px 20px 20px 20px;
+}
+#gamerProgress {
+  background: #0f2027; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border: none;
+  padding-top: 15px;
+}
+
+.saveButton {
+  margin: 10px;
+  padding: 5px;
+}
+.segmentBck {
+  /* background-color: rgba(191, 245, 227, 0.5);  */
+  background: #0f2027; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border: none;
+}
+
