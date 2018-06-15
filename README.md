@@ -32,7 +32,7 @@ Installing the app:
 
 About CORS:
 
-1.- Install CORS extension in your Chrome navigator
+1.- Install CORS extension in your Chrome browser
 2.- Activate CORS in order to proceed request to different port (server run on port:3001 // client run on port:3000)
 
 Start IMPROVENG:
